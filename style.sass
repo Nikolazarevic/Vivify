@@ -1,0 +1,215 @@
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+#menu
+	width: 100%
+	height: 70px
+	background-color: #ff6633
+	position: fixed
+	z-index: 99
+	opacity: 0.9
+	.nav
+		max-width: 1280px
+		height: 70px
+		width: 100%
+		display: flex
+		justify-content: space-between
+		// align-items: center
+		margin: 0 auto
+
+		flex-direction: row
+		flex-wrap: wrap
+		.logo 
+			flex: 1
+			img 
+				height: 102px
+				width: 97px
+			
+		.navBar 
+			flex: 1
+			display: flex
+			// flex-wrap: wrap
+			align-items: center
+
+			li 
+				// width: 25%
+				height: 70px
+				text-align: center
+				list-style: none
+				padding: 0 10px
+				flex-grow: 1
+				// flex-basis: 25%
+				cursor: pointer
+				display: flex
+				&:hover
+					background-color: #ff845c
+				a
+					display: inline-block
+					color: #ffffff
+					text-decoration: none
+					margin: auto
+					font-size: 14px
+					white-space: nowrap
+					
+#hero
+	max-width: 1280px
+	height: 850px
+	margin: 0 auto
+	background-image: url(Images/backgroundHero.png)
+	background-repeat: no-repeat
+	background-size: cover
+	display: flex
+	flex-direction: column
+	.innerHero
+		max-width: 650px
+		height: 730px 
+		order: 1
+		margin: 0 auto
+		display: flex
+		/*SREDITI*/
+		.txtBtn
+			// width: auto
+			// height: auto
+			margin: auto
+			text-align: center
+			display: flex
+			flex-direction: column
+			.textHero
+				// width: auto
+				// height: auto
+				p
+					color: #ffffff
+					font-size: 60px
+			.buttonHero
+				// width: auto
+				// height: auto
+				margin-top: 20px
+				display: flex
+				justify-content: center
+				.btnHero
+					flex-basis: 30%
+					height: 50px
+					background-color: #3c201e
+					opacity: 0.9
+					font-size: 14px
+					color: #ffffff
+					cursor: pointer
+					margin-right: 20px
+					&:hover
+						background-color: #ff6633
+#work
+	max-width: 1280px
+	height: 600px
+	margin: 40px auto 0 auto
+	display: flex
+	flex-direction: column
+	.tittle
+		text-align: center
+		h2
+			font-size: 48px
+			color: #ff6633
+	.rows
+		padding: 30px 50px
+		display: flex
+		flex-direction: column
+		.row
+			flex: 1
+			display: flex
+			justify-content: space-between
+			.column
+				margin-bottom: 20px
+				flex-basis: 23%
+				text-align: center
+				p
+					font-size: 14px
+				img
+					width: 100%
+					height: 100%
+#we
+	max-width: 1280px
+	height: 1100px
+	background-image: url(Images/Layer_10.png)
+	background-repeat: no-repeat
+	background-size: cover
+	margin: 20px auto 0 auto
+	flex-direction: column
+	display: flex
+	.tittle
+		margin-top: 40px
+		text-align: center
+		h2
+			font-size: 48px
+			color: #000000
+			margin: auto
+	.users
+		padding: 40px 0
+		display: flex
+		height: 100%
+		.rubric
+			padding: 0 30px
+			display: flex
+			flex-direction: column
+			justify-content: space-around
+			.user
+				box-sizing: border-box
+				display: flex
+				flex-basis: 30%
+				.imgUser
+					flex: 1
+					margin: auto
+					img
+						width: 100%
+						height: 100%
+				.textUser
+					flex: 1
+					margin: auto
+					padding: 10px 10px
+					h2
+						font-size: 16px
+						color: #ffffff
+					h4
+						font-size: 12px
+						color: #ffffff
+						margin: 5px 0 5px 0
+					p
+						font-size: 14px
+						color: #ffffff
+#location
+	max-width: 1280px
+	height: auto
+	margin: 0 auto 0 auto
+	display: flex
+	img
+		width: 100%
+		height: 100%
+	
+
+
+#footer
+	max-width: 1280px
+	height: 320px
+	background-color: #e6e6e6
+	margin: 0 auto 0 auto
+	display: flex
+	justify-content: flex-end
+	align-items: center
+	.logoFoot
+		// margin: auto
+		
+	.adress
+		// margin: auto
+		flex-direction: column
+		text-align: right
+		img
+			display: flex
+			width: 100%
+			height: 100%
+		p
+			font-size: 14px
+			color: #999999
+
+
+
+.last-chaild
+	margin-right: 0 !important

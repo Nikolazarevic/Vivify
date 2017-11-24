@@ -1,0 +1,55 @@
+@media screen and (max-width: 720px) {
+  #menu {
+    flex-direction: column;
+    height: auto; }
+    #menu .nav {
+      height: auto;
+      display: flex;
+      flex-direction: column; }
+      #menu .nav .logo {
+        text-align: center; }
+        #menu .nav .logo img {
+          width: 48.5px;
+          height: 61px; }
+      #menu .nav .navBar {
+        width: 100%;
+        flex-wrap: wrap; }
+        #menu .nav .navBar li {
+          height: 30px;
+          padding: 0 10px;
+          display: flex; }
+          #menu .nav .navBar li a {
+            font-size: 10px;
+            margin: auto; }
+
+  #hero {
+    height: 425px; }
+    #hero .innerHero {
+      height: 365px; }
+      #hero .innerHero .txtBtn .textHero p {
+        font-size: 30px; }
+      #hero .innerHero .txtBtn .buttonHero {
+        margin-top: 20px; }
+        #hero .innerHero .txtBtn .buttonHero .btnHero {
+          height: 25px;
+          font-size: 9px; }
+
+  #work {
+    height: auto; }
+    #work .rows .row {
+      flex-direction: column;
+      height: auto; }
+      #work .rows .row .column img {
+        width: 50%;
+        height: 50%; }
+
+  #we {
+    height: auto; }
+    #we .user {
+      flex-direction: column;
+      height: auto; }
+      #we .user .textUser {
+        text-align: center; }
+
+  #footer {
+    height: auto; } }
